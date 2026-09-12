@@ -13,7 +13,7 @@ app.use(express.json());
 // ✅ FIXED CORS
 app.use(
   cors({
-    origin: 'https://gsd-1-dt4w.onrender.com/', // 👈 এখানে // যোগ করা হয়েছে
+    origin: 'https://gsd-1-dt4w.onrender.com', // 👈 এখানে // যোগ করা হয়েছে
     credentials: true,
   }),
 );
